@@ -21,6 +21,8 @@ import { NgModule } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { MobilePhonesComponent } from './mobile-phones/mobile-phones.component';
 
 
 
@@ -39,6 +41,8 @@ import {MatButtonModule} from '@angular/material/button';
     LogInComponent,
     TestPipe,
     TruncatePipe,
+    AdminPanelComponent,
+    MobilePhonesComponent,
     
   ],
   imports: [

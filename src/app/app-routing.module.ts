@@ -7,6 +7,7 @@ import { AuthGuard } from './guards/auth.guard';
 import { LoginGuard } from './guards/login.guard';
 import { HomeComponent } from './home/home.component';
 import { LogInComponent } from './log-in/log-in.component';
+import { MobilePhonesComponent } from './mobile-phones/mobile-phones.component';
 import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
@@ -48,6 +49,11 @@ const routes: Routes = [
     path: 'login',
     component: LogInComponent,
     canActivate: [LoginGuard]
+  },
+  {
+    path: 'mobilePhones',
+    component: MobilePhonesComponent,
+    
   },
 ];
 

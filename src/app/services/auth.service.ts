@@ -16,6 +16,6 @@ export class AuthService {
 
   }
   isUserLoggedIn() {
-    return false;
+    return true;
   }
 }
