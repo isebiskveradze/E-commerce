@@ -14,3 +14,13 @@
   input.example-right-align {
     -moz-appearance: textfield;
   }
+  .container{
+    margin: 100px auto;
+    width: 300px;
+    /* border: 1px solid black; */
+    
+  }
+  mat-form-field{
+    width: 100%;
+    margin-top: 10px;
+  }

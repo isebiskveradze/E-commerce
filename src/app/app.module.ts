@@ -23,6 +23,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { MobilePhonesComponent } from './mobile-phones/mobile-phones.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -55,7 +56,8 @@ import { MobilePhonesComponent } from './mobile-phones/mobile-phones.component';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule
     
     
     
