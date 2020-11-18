@@ -11,19 +11,19 @@ export class MobilePhonesService {
   constructor(private http: HttpClient) { }
   
   getMobilePhone(): Observable <Array<ProductPreviewModel>>{
-    return this.http.get<Array<ProductPreviewModel>>('http://localhost:3000/todos');
+    return this.http.get<Array<ProductPreviewModel>>('http://localhost:3000/mobilePhone');
   }
 
 
   editMobilePhone(MobilePhone: ProductPreviewModel): Observable<ProductPreviewModel>{
-    return this.http.put<ProductPreviewModel>(`http://localhost:3000/todos/${MobilePhone.id}`,MobilePhone);
+    return this.http.put<ProductPreviewModel>(`http://localhost:3000/mobilePhone${MobilePhone.id}`,MobilePhone);
   }
 
   deleteMobilePhone(id: number | string){
-    return this.http.delete<ProductPreviewModel>(`http://localhost:3000/todos/${id}`);
+    return this.http.delete<ProductPreviewModel>(`http://localhost:3000/mobilePhone/${id}`);
   }
 
   addMobilePhone(MobilePhone: ProductPreviewModel): Observable<ProductPreviewModel>{
-    return this.http.post<ProductPreviewModel>('http://localhost:3000/todos',MobilePhone);
+    return this.http.post<ProductPreviewModel>('http://localhost:3000/mobilePhone',MobilePhone);
   }
 }

@@ -1,1 +1,55 @@
-<p>mobile-phones works!</p>
+<!-- <p>{{mobilePhonesArr}}</p> -->
+<div class="mobilephones">
+
+    <div *ngFor="let mobilePhone of mobilePhonesArr" [mobilePhone]="mobilePhone">
+    
+
+        <mat-card class="example-card">
+            <div style="width: 170px; height: 170px; object-fit: cover; margin: 0 auto;">
+                <carousel >
+                    <slide >
+                      <img src="https://www.alezay.com/wp-content/uploads/2020/07/Xiaomi-Mi-10-Lite-5G-Aurora-Blue-Sides-Alezay-600x600.jpg" alt="first slide" style="width: 170px; height: 170px; object-fit: cover; margin: 0 auto;;">
+                      <div class="carousel-caption d-none d-md-block" >
+                        <!-- <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                      </div>
+                    </slide>
+                    <slide>
+                      <img src="https://www.powerplanetonline.com/cdnassets/xiaomi_mi_10_lite_5g_6gb_64gb_03_negro_ad_l.jpg" alt="second slide" style="display: block; width: 170px; height: 170px; object-fit: cover; margin: 0 auto;">
+                      <div class="carousel-caption d-none d-md-block">
+                        <!-- <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                      </div>
+                    </slide>
+                    <slide>
+                      <img src="https://cdn.tecobuy.com/media/catalog/product/cache/2/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/x/i/xiaomi-mi-10-lite-5g-dual-sim-6gb-ss3mcq.jpg" alt="third slide" style="width: 170px; height: 170px; object-fit: cover; margin: 0 auto;">
+                      <div class="carousel-caption d-none d-md-block">
+                        <!-- <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                      </div>
+                    </slide>
+                  </carousel>
+                  </div>
+            
+            <!-- <img mat-card-image src="https://www.alezay.com/wp-content/uploads/2020/07/Xiaomi-Mi-10-Lite-5G-Aurora-Blue-Sides-Alezay-600x600.jpg" alt="Photo of a Shiba Inu"> -->
+            <mat-card-header>
+                <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                <mat-card-title>{{mobilePhone.title}}</mat-card-title>
+                <mat-card-subtitle>Mi 10 Lite 5G</mat-card-subtitle>
+              </mat-card-header>
+            <mat-card-content>
+              <p>{{"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, fugiat? Harum at dolores magnam modi nobis aperiam architecto. Dignissimos necessitatibus architecto laudantium sint eveniet, temporibus aliquid pariatur nemo sed aperiam?" | truncate}}
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+
+</div>
+
+</div>
+
+
+

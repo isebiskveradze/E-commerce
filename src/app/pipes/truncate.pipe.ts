@@ -6,12 +6,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TruncatePipe implements PipeTransform {
 
   transform(value: string): string {
-    if(value.length <= 15){
+    if(value.length <= 80){
       return value;
     }else{
       // const slince =  value.slice(0, 16);
       // const tochka = '...';
-      return value.slice(0, 16)+'...';
+      return value.slice(0, 80)+'...';
 
     }
   }

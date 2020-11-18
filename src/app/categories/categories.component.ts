@@ -11,7 +11,8 @@ export class CategoriesComponent implements OnInit {
     id:1,
     description: 'იყიდება',
     price: 200,
-    title: 'ფეხსაცმელი'
+    title: 'ფეხსაცმელი',
+    model: '123'
 
   }
 

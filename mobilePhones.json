@@ -2,7 +2,22 @@
     "mobilePhone": [
         {
             "id": 1,
-            "title": "Xiaomi Mi 10 Lite 5G",
+            "title": "Xiaomi",
+            "model": "Mi 10 Lite 5G",
+            "price": 1064,
+            "description": "good"
+        },
+        {
+            "id": 2,
+            "title": "Xiaomi",
+            "model": "Mi 10 Lite 5G",
+            "price": 1064,
+            "description": "good"
+        },
+        {
+            "id": 2,
+            "title": "Xiaomi",
+            "model": "Mi 10 Lite 5G",
             "price": 1064,
             "description": "good"
         }

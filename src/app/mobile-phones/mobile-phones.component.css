@@ -1,0 +1,17 @@
+.mobilephones{
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.example-card {
+    max-width: 200px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

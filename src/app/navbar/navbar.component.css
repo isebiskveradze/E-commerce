@@ -45,4 +45,17 @@
     width: 120px;
     
   }
+  .loginbutton{
+    
+    font-size: 10px;
+    border-radius: 100% 0 0 100%;
+    background-color: blue;
+    
+  }
+  .signupbutton{
+    
+    font-size: 10px;
+    background-color: green;
+    border-radius: 0 100% 100% 0;
+  }
   

@@ -24,6 +24,12 @@ import {MatButtonModule} from '@angular/material/button';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { MobilePhonesComponent } from './mobile-phones/mobile-phones.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import {  HttpClientModule } from '@angular/common/http';
+import {MatCardModule} from '@angular/material/card';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+
 
 
 
@@ -45,6 +51,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     TruncatePipe,
     AdminPanelComponent,
     MobilePhonesComponent,
+    SignUpComponent,
     
   ],
   imports: [
@@ -58,7 +65,13 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatToolbarModule,
     MatMenuModule,
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatCardModule,
+    CarouselModule.forRoot(),
+    
+    
+    
     
     
     
@@ -73,4 +86,5 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class AppModule {
   
+
  }
